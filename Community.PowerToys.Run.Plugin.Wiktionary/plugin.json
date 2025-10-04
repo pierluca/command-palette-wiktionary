@@ -1,0 +1,13 @@
+{
+  "ID": "4D52B66A36A641F1A905943207F16B0C",
+  "ActionKeyword": "wik",
+  "Name": "Wiktionary",
+  "Description": "Search Wiktionary for word definitions",
+  "Author": "pierluca",
+  "Version": "1.0.0",
+  "Language": "csharp",
+  "Website": "https://github.com/pierluca/command-palette-wiktionary",
+  "ExecuteFileName": "Community.PowerToys.Run.Plugin.Wiktionary.dll",
+  "IcoPathDark": "Images\\wiktionary.png",
+  "IcoPathLight": "Images\\wiktionary.png"
+}
