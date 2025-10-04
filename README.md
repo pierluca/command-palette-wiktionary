@@ -2,6 +2,8 @@
 
 A PowerToys Run plugin to search Wiktionary for word definitions.
 
+![Usage Example](docs/usage-example.png)
+
 ## Features
 
 - Quick search for word definitions on Wiktionary
@@ -24,10 +26,14 @@ This will search for "serendipity" on Wiktionary.
 
 ## Installation
 
+For detailed installation instructions, see [INSTALLATION.md](docs/INSTALLATION.md).
+
+### Quick Start
+
 1. Build the plugin:
    ```bash
    cd Community.PowerToys.Run.Plugin.Wiktionary
-   dotnet build
+   dotnet build --configuration Release
    ```
 
 2. Copy the build output to your PowerToys plugins directory:
@@ -36,6 +42,18 @@ This will search for "serendipity" on Wiktionary.
    ```
 
 3. Restart PowerToys
+
+## Configuration
+
+The default action keyword is `wik`. You can change this in PowerToys Settings:
+
+1. Open PowerToys Settings
+2. Go to PowerToys Run > Plugins
+3. Find "Wiktionary" and modify the action keyword
+
+## Contributing
+
+Contributions are welcome! Please see [CONTRIBUTING.md](docs/CONTRIBUTING.md) for guidelines.
 
 ## Development
 
